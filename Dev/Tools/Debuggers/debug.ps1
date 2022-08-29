@@ -1,1 +1,0 @@
-(Get-Content -path ".\src\buildvars.scss") -replace "DEBUG: false", "DEBUG: true" | Set-Content -Path ".\src\buildvars.scss"
